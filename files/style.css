@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.intro {
+  background: url("bg.jpeg");
+  background-size: cover;
+  height: 700px; }
+  .intro nav {
+    padding: 30px; }
+    .intro nav .fab {
+      font-size: 50px;
+      color: #fff; }
+    .intro nav aside {
+      float: right; }
+      .intro nav aside .bar1, .intro nav aside .bar2, .intro nav aside .bar3 {
+        width: 35px;
+        height: 5px;
+        background: #fff;
+        margin: 6px 0px;
+        transition: 0.5s; }
+      .intro nav aside .change .bar1 {
+        transform: rotate(-45deg) translate(-9px, 6px); }
+      .intro nav aside .change .bar2 {
+        opacity: 0; }
+      .intro nav aside .change .bar3 {
+        transform: rotate(45deg) translate(-7px, -8px); }
+      .intro nav aside .menu-content {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        transition: 0.5s; }
+        .intro nav aside .menu-content a {
+          display: block;
+          padding: 20px 8px 8px 50px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #fff; }
+        .intro nav aside .menu-content .dropdown .btn {
+          font-size: 25px;
+          color: #fff;
+          cursor: pointer;
+          border: 0;
+          outline: 0;
+          background: inherit;
+          padding: 20px 8px 8px 50px; }
+        .intro nav aside .menu-content .dropdown .dropdown-item {
+          display: none; }
+        .intro nav aside .menu-content .dropdown:hover .dropdown-item {
+          display: block; }
+
+.change1 .menu-content {
+  width: 20%; 
+}
+
+/*# sourceMappingURL=style.css.map */
